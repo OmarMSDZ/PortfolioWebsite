@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body{
+  background-color: black;
+  font-family: monospace;
+
+}
+
+h2{
+  color: white;
+}
+
+.navbar-custom {
+  background-color: #000; /* Fondo negro */
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #fff; /* Texto blanco */
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.navbar-custom .nav-link.active {
+  color: #ccc; /* Texto gris claro para el enlace activo */
+}
+
+
+
+/* seccion about */
+.text-about{
+  
+  color: white;
+  animation: typing;
+  animation-duration: 3s;
+  animation-timing-function: steps(70, end);
+  animation-fill-mode: forwards;
+}
+
+
+/* seccion skills */
+.skillshead{
+  text-align: center;
+  font-family: monospace;
+}
+
+.skillshr{
+  color: white;
+  border: 2px solid white;
+}
+.skillscard{
+  background-color: black;
+  border: 2px solid white;
+  margin-right: 3em;
+  margin-bottom: 3em;  
+}
+
+.skillscard .card-title{
+  color: white;
+  margin-top: 10px;
+  padding: 0;
+  font-size: 1.3em;
+}
+.skillscard i{
+  color: white;
+}
+
+.skillscard img{
+  width: 50px;
+  height: 50px;
+}
+ 
+ 
+
+ 
