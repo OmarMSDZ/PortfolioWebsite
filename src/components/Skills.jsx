@@ -45,7 +45,7 @@ export default function Skills() {
             </div>
             <div className="row">
               <div class="card skillscard col-sm">
-                <div class="card-title">NextJs</div>
+                <div class="card-title">ExpressJS</div>
                 <div class="card-body d-flex">
                 <i class="bi bi-diamond"></i>
                 <i class="bi bi-diamond"></i>
